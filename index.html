@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>landing page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/lptabs.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/wi-feedback.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-locale_ru-by.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/lptabs.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/wi-feedback.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&onload=jQuery.fn.lpMapInit" type="text/javascript" async>
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="#slideshow">Главная</a>
+                </li>
+                <li>
+                    <a href="#services">Услуги</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Портфолио</a>
+                </li>
+                <li>
+                    <a href="#prices">Цены</a>
+                </li>
+                <li>
+                    <a href="#contacts">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="slideshow" data-offset="50">
+        <div class="container">
+            <div class="lp-content">
+                <div class="owl-carousel lp-slider1">
+                    <img src="img/slideshow/slide1.jpg" alt="Продукт 1">
+                    <img src="img/slideshow/slide2.jpg" alt="Продукт 2">
+                    <img src="img/slideshow/slide3.jpg" alt="Продукт 3">
+                    <img src="img/slideshow/slide1.jpg" alt="Продукт 4">
+                    <img src="img/slideshow/slide2.jpg" alt="Продукт 5">
+                    <img src="img/slideshow/slide3.jpg" alt="Продукт 6">
+
+                </div>
+
+<!--
+                <ul class="sl-nav">
+                    <li>Пункт 1</li>
+                    <li>Пункт 2</li>
+                    <li>Пункт 3</li>
+                    <li>Пункт 4</li>
+                    <li>Пункт 5</li>
+                    <li>Пункт 6</li>
+                </ul>
+                <button id="sl-prev">Назад</button>
+                <button id="sl-next">Вперед</button>
+-->
+
+<!--
+                <style>
+                    .sl-nav .active {
+                        color: red;
+
+                    }
+
+                </style>
+-->
+
+            </div>
+        </div>
+
+    </section>
+    <section id="services">
+        <div class="container">
+            <div class="lp-content">
+                <h2>Услуги</h2>
+                <div class="lp-services">
+                    <div title="Услуга 1">
+                        <p class="text-center"><strong>Услуга 1</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cumque sit tenetur, ab officiis corporis voluptate incidunt assumenda earum nobis maxime, in esse voluptatum ex dicta illum recusandae explicabo culpa!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cumque sit tenetur, ab officiis corporis voluptate incidunt assumenda earum nobis maxime, in esse voluptatum ex dicta illum recusandae explicabo culpa!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cumque sit tenetur, ab officiis corporis voluptate incidunt assumenda earum nobis maxime, in esse voluptatum ex dicta illum recusandae explicabo culpa!</p>
+                        <p class="text-center">
+                            <a href="#lp-srv1" class="lp-mfp-inline btn btn-primary">Подробнее...</a>
+                            <span class="btn btn-primary lp-fb1-link" data-label="Услуга 1">Заказать</span>
+                        </p>
+                    </div>
+
+                    <div title="Услуга 2">
+                        <p class="text-center"><strong>Услуга 2</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloribus quidem temporibus voluptate? Rem ratione alias nobis explicabo vero nisi totam deserunt voluptatibus, voluptatem illum dolore accusamus inventore libero velit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloribus quidem temporibus voluptate? Rem ratione alias nobis explicabo vero nisi totam deserunt voluptatibus, voluptatem illum dolore accusamus inventore libero velit.</p>
+                        <p class="text-center">
+                            <a href="#lp-srv2" class="lp-mfp-inline btn btn-primary">Подробнее...</a>
+                            <span class="btn btn-primary lp-fb1-link" data-label="Услуга 2">Заказать</span>
+                        </p>
+                    </div>
+
+                    <div title="Услуга 3">
+                        <p class="text-center"><strong>Услуга 3</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique delectus ea corporis, natus culpa sequi quos minima enim soluta voluptatibus accusamus ullam rem explicabo aut adipisci perspiciatis corrupti deleniti iste.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique delectus ea corporis, natus culpa sequi quos minima enim soluta voluptatibus accusamus ullam rem explicabo aut adipisci perspiciatis corrupti deleniti iste.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique delectus ea corporis, natus culpa sequi quos minima enim soluta voluptatibus accusamus ullam rem explicabo aut adipisci perspiciatis corrupti deleniti iste.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique delectus ea corporis, natus culpa sequi quos minima enim soluta voluptatibus accusamus ullam rem explicabo aut adipisci perspiciatis corrupti deleniti iste.</p>
+                        <p class="text-center">
+                            <a href="#lp-srv3" class="lp-mfp-inline btn btn-primary">Подробнее...</a>
+                            <span class="btn btn-primary lp-fb1-link" data-label="Услуга 3">Заказать</span>
+                        </p>
+                    </div>
+
+                    <div title="Услуга 4">
+                        <p class="text-center"><strong>Услуга 4</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque laborum, dignissimos fugiat praesentium. Numquam quidem cum obcaecati et, ad iusto dicta amet quaerat laudantium, ipsa iste dignissimos odio libero!</p>
+                        <p class="text-center">
+                            <a href="#lp-srv4" class="lp-mfp-inline btn btn-primary">Подробнее...</a>
+                            <span class="btn btn-primary lp-fb1-link" data-label="Услуга 4">Заказать</span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <div class="lp-content">
+                <h2>Портфолио</h2>
+
+                <div class="owl-carousel lp-slider2 lp-gallery">
+
+                    <a href="img/slideshow/slide1.jpg">
+                        <img src="img/slideshow/slide1.jpg" alt="Продукт 1">
+                    </a>
+                    <a href="img/slideshow/slide2.jpg">
+                        <img src="img/slideshow/slide2.jpg" alt="Продукт 2">
+                    </a>
+                    <a href="img/slideshow/slide3.jpg">
+                        <img src="img/slideshow/slide3.jpg" alt="Продукт 3">
+
+
+
+                    </a>
+                    <a href="img/slideshow/slide1.jpg">
+                        <img src="img/slideshow/slide1.jpg" alt="Продукт 4">
+                    </a>
+                    <a href="img/slideshow/slide2.jpg">
+                        <img src="img/slideshow/slide2.jpg" alt="Продукт 5">
+                    </a>
+                    <a href="img/slideshow/slide3.jpg">
+                        <img src="img/slideshow/slide3.jpg" alt="Продукт 6">
+
+
+
+                    </a>
+                    <a href="img/slideshow/slide1.jpg">
+                        <img src="img/slideshow/slide1.jpg" alt="Продукт 7">
+                    </a>
+                    <a href="img/slideshow/slide2.jpg">
+                        <img src="img/slideshow/slide2.jpg" alt="Продукт 8">
+                    </a>
+                    <a href="img/slideshow/slide3.jpg">
+                        <img src="img/slideshow/slide3.jpg" alt="Продукт 9">
+                    </a>
+
+
+
+
+                </div>
+                <!--
+               <a href="/img/slideshow/slide1.jpg" class="link_img">img</a>
+               <a href="1.html" class="link_ajax">ajax</a>
+               <a href="https://www.youtube.com/watch?v=6ASD8gHrDeE" class="link_iframe">Видео</a>
+-->
+<!--
+                                ДОМАШНЕЕ ЗАДАНИЕ
+
+                <a href="https://www.youtube.com/watch?v=Gb0TQ7VeApY" class="linkvideo">video</a>
+                <a href="page1.html" class="linkajax">page1</a>
+                <button class="home_task_button">let's go</button>
+                <span class="btn btn-primary lp-fb3-link" data-label="Домашнее">Ссылка ДЗ</span>
+                <span class="btn btn-primary lp-fb4-link" data-label="Домашнее с шаблоном">Ссылка с шаблоном</span>
+-->
+
+
+            </div>
+        </div>
+
+    </section>
+    <section id="prices" ng-app="lpApp" ng-controller="lpPriceCtrl">
+        <div class="container">
+            <div class="lp-content">
+
+                <h2>Цены</h2>
+                <!--                Если в контроллере существует хотя бы одно из следующих свойств (пока прайсеы не создан, он false, как только преобразуется - спиннер пропадает)-->
+                <p ng-hide="prices||reqStatus||reqStatusText" class="lp-prices-loader">
+                    <i class="fas fa-spinner"></i>
+                </p>
+                <table ng-show="prices" class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th ng-click="sortSet('name')">
+                                <span>Наименование</span>
+
+                                <i class="fas fa-sort" ng-show="sortBy!='name'"></i>
+                                <i class="fas fa-sort-up" ng-show="sortBy=='name'&& !sortRev"></i>
+                                <i class="fas fa-sort-down" ng-show="sortBy=='name'&& sortRev"></i>
+
+                            </th>
+                            <th ng-click="sortSet('price')">
+                                <span>Цена</span>
+                                <i class="fas fa-sort" ng-show="sortBy!='price'"></i>
+                                <i class="fas fa-sort-up" ng-show="sortBy=='price'&& !sortRev"></i>
+                                <i class="fas fa-sort-down" ng-show="sortBy=='price'&& sortRev"></i>
+                            </th>
+                            <th ng-click="sortSet('discount')">
+                                <span>Скидка</span>
+                                <i class="fas fa-sort" ng-show="sortBy!='discount'"></i>
+                                <i class="fas fa-sort-up" ng-show="sortBy=='discount'&& !sortRev"></i>
+                                <i class="fas fa-sort-down" ng-show="sortBy=='discount'&& sortRev"></i>
+                            </th>
+                            <th ng-click="sortSet('price2')">
+                                <span>Цена со скидкой</span>
+                                <i class="fas fa-sort" ng-show="sortBy!='price2'"></i>
+                                <i class="fas fa-sort-up" ng-show="sortBy=='price2'&& !sortRev"></i>
+                                <i class="fas fa-sort-down" ng-show="sortBy=='price2'&& sortRev"></i>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--                       перебираем значения под переменной price в массиве prices, записывает столько раз, сколько есть наименований в массиве-->
+
+                        <tr ng-repeat="price in prices | orderBy:sortBy:sortRev">
+                            <!--                          $index - втсроенная переменная-->
+                            <td>{{$index+1}}</td>
+                            <td>
+                                <span>{{price.name}}</span>
+                                <!--                                ТАМ, ГДЕ ЕСТЬ СКИДКА - ПОЯВИТСЯ ЯРЛЫЧОК-->
+                                <i class="fas fa-tag" ng-show="price.discount"></i>
+                            </td>
+                            <td>{{price.price|currency}}</td>
+                            <td><span ng-show="price.discount">{{price.discount*100|number:0}}</span>
+                                <span ng-hide="price.discount">-</span></td>
+                            <!--                            <td>{{price.price*(1-price.discount)|currency}}</td>-->
+                            <td>{{price.price2|currency}}</td>
+
+
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p ng-show="reqStatus||reqStatusText" class="alert alert-danger">При загрузке данных произошла ошибка {{reqStatus}} {{reqStatusText}}</p>
+
+
+            </div>
+        </div>
+
+    </section>
+    <section id="contacts">
+        <div class="container">
+            <div class="lp-content">
+                <h2>Контакты</h2>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div id="lp-map"></div>
+<!--
+                        <script type="text/javascript">
+                            // Функция ymaps.ready() будет вызвана, когда
+                            // загрузятся все компоненты API, а также когда будет готово DOM-дерево. ожидается пока карта подгрузится и запускает функцию инит
+                            ymaps.ready(init);
+
+                            function init() {
+                                // Создание карты.
+                                var myMap = new ymaps.Map("map", {
+                                    // Координаты центра карты.
+                                    // Порядок по умолчанию: «широта, долгота».
+                                    // Чтобы не определять координаты центра карты вручную,
+                                    // воспользуйтесь инструментом Определение координат.
+                                    center: [55.76, 37.64],
+                                    // Уровень масштабирования. Допустимые значения:
+                                    // от 0 (весь мир) до 19.
+                                    zoom: 7
+                                });
+                            }
+
+                        </script>
+-->
+                    </div>
+                    <div class="col-sm-6">
+                        <div id="lp-fb2">
+                            <h2>Обратная связь</h2>
+                            <p>Заполните контактные данные, и мы свяжемся с вами в кратчайшие сроки:</p>
+                            <input type="text" maxlength="50" name="Имя" placeholder="Ваше Имя..." />
+                            <input type="tel" maxlength="50" name="Телефон" placeholder="Ваш Телефон..." required />
+                            <input type="email" maxlength="50" name="Почта" placeholder="Ваш E-mail..." />
+                            <textarea maxlength="500" name="Сообщение" placeholder="Сообщение..."></textarea>
+                            <button>Отправить</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Landing Page 2019</p>
+        </div>
+
+    </footer>
+
+    <div id="lp-srv1" class="mfp-hide lp-popup">
+        <h2>Описание услуги 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, perferendis, sed alias nisi molestias illo delectus dicta eaque facilis rem cumque, ducimus tenetur suscipit iste error, ea ratione nostrum recusandae.</p>
+    </div>
+    <div id="lp-srv2" class="mfp-hide lp-popup">
+        <h2>Описание услуги 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto repudiandae quam libero nihil error voluptatum quis voluptate necessitatibus cupiditate numquam, obcaecati esse at itaque dolore illum laborum neque cum alias.</p>
+    </div>
+    <div id="lp-srv3" class="mfp-hide lp-popup">
+        <h2>Описание услуги 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero aliquid voluptatibus ab, eligendi architecto fugiat pariatur totam libero amet voluptate fuga blanditiis culpa voluptatum nemo atque officiis odit iste quia.</p>
+    </div>
+    <div id="lp-srv4" class="mfp-hide lp-popup">
+        <h2>Описание услуги 4</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe veniam maiores, soluta tempore impedit modi eveniet temporibus pariatur animi non, voluptate necessitatibus possimus iste quod assumenda officia quidem corrupti ratione!</p>
+    </div>
+
+
+    <!--        ФОРМА ОБРАТНОЙ СВЯЗИ-->
+
+    <div id="lp-fb1">
+        <h2>Заказать консультацию</h2>
+        <p>Заполните контактные данные, и мы свяжемся с вами в кратчайшие сроки:</p>
+        <input type="text" maxlength="50" name="Имя" placeholder="Ваше Имя..." />
+        <input type="tel" maxlength="50" name="Телефон" placeholder="Ваш Телефон..." required />
+
+        <button>Перезвоните мне</button>
+    </div>
+
+
+    <!--    ДОМАШНЕЕ ЗАДАНИЕ-->
+
+    <div id="lp-fb3">
+        <h2>Заказать консультацию</h2>
+        <p>Заполните контактные данные, и мы свяжемся с вами в кратчайшие сроки:</p>
+        <input type="text" maxlength="50" name="Имя" placeholder="Ваше Имя..." />
+        <input type="tel" maxlength="50" name="Телефон" placeholder="Ваш Телефон..." required />
+        <input type="file">
+        <!--
+        <input type="checkbox" name="1" value="1">Чай
+        <input type="checkbox" name="2" value="2">Кофе
+-->
+        <input type="password" maxlength="8" name="Пароль" placeholder="Ваш пароль">
+        <!--
+        <input type="radio" name="1" value="1">Лето
+        <input type="radio" name="2" value="2">Зима
+        <input type="radio" name="3" value="3">Осень
+        <input type="radio" name="4" value="4">Весна
+        
+-->
+        <input type="color" name="цвет">
+        <input type="datetime" name="Имя" placeholder="Ваша дата">
+        <input type="date" name="Имя" placeholder="Введите дату">
+        <input type="datetime-local" name="Имя">
+        <input type="email" name="Имя" placeholder="Ваша почта">
+        <input type="number" name="Имя" placeholder="Введите число">
+        <input type="range" name="Имя" placeholder="Введите рейтинг">
+        <input type="search" name="Имя" placeholder="Поиск">
+        <input type="tel" name="Имя" placeholder="Введите телефон">
+        <input type="time" name="Имя" placeholder="Введите время">
+        <input type="text" name="Имя" placeholder="Введите текст">
+
+        <button>Отправить!</button>
+    </div>
+
+    <div id="lp-fb4">
+        <!--        <input pattern="\+375\( )?(([29|33|44])\)( )? \d{3}-\d{2}-\d{2}" type="tel" name="tel_num" placeholder="Номер телефона">-->
+        <button>Перезвоните мне</button>
+    </div>
+
+
+
+
+</body>
+
+</html>
